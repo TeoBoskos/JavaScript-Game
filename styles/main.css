@@ -1,0 +1,198 @@
+body {
+  background-color: #0a0a23;
+  padding-bottom: 2000px;
+  font-family: Arial;
+}
+
+main {
+  width: 600px;
+  min-height: 600px;
+  padding: 100px;
+  border: 3px black solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  background-image: linear-gradient(rgb(201, 201, 201) ,rgb(87, 87, 87));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 3px #ffac33 solid;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 42px;
+  top: 65px;
+  text-align: center;
+}
+
+.basic-button {
+  width: 170px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px 0px;
+  font-size: 20px;
+  background-image: linear-gradient(rgb(90, 128, 0), rgb(45, 85, 11));
+  cursor: pointer;
+}
+
+.basic-button:active {
+  background-image: linear-gradient(rgb(45, 85, 11), rgb(90, 128, 0));
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tank-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px black solid;
+}
+
+.market-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.back-menu {
+  width: 170px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+  font-size: 20px;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  cursor: pointer;
+  border: 3px #ffac33 solid;
+}
+
+.back-menu:active {
+  background-image: linear-gradient(#ffac33, #fecc4c);
+}
+
+.garage-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.garage-container p {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+ select {
+  height: 23px;
+  border: solid 2px rgb(73, 73, 73);;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.currentTankImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.battle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.campaign-menu-button {
+  width: 200px;
+  height: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px 0px;
+  font-size: 20px;
+  background-image: linear-gradient(rgb(90, 128, 0), rgb(45, 85, 11));
+  cursor: pointer;
+}
+
+.campaign-menu-button:active {
+  background-image: linear-gradient(rgb(45, 85, 11), rgb(90, 128, 0));
+}
+
+.battle-info {
+  background-color: rgb(219, 219, 219);
+  font-size: 22px;
+  margin: 30px;
+  padding: 20px;
+  border: solid 3px black;
+}
+
+.c-tank-info-container {
+  background-color: rgb(219, 219, 219);
+  font-size: 22px;
+  margin: 30px;
+  padding: 20px;
+  border: solid 3px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.initiation-btn {
+  width: 170px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px 0px;
+  font-size: 20px;
+  background-image: linear-gradient(red, rgb(153, 0, 0));
+  color: white;
+  cursor: pointer;
+}
+
+.initiation-btn:active {
+  background-image: linear-gradient(rgb(153, 0, 0), red);
+}
+
+.c-enemy-info-container {
+  background-color: rgb(219, 219, 219);
+  font-size: 22px;
+  margin: 30px;
+  padding: 20px;
+  border: solid 3px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gold-container {
+  background-color: rgb(219, 219, 219);
+  font-size: 22px;
+  padding: 20px;
+  margin: 30px;
+  border: solid 3px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 180px;
+  }
+}
